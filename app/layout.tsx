@@ -1,10 +1,8 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono, Playfair_Display, Dancing_Script } from 'next/font/google';
+import { Playfair_Display, Dancing_Script } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 
-const _geist = Geist({ subsets: ['latin'] });
-const _geistMono = Geist_Mono({ subsets: ['latin'] });
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
 const dancing = Dancing_Script({ subsets: ['latin'], variable: '--font-dancing' });
 
